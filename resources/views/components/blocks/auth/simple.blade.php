@@ -28,7 +28,15 @@
 				</a>
 			</li>
 			<li>
+<<<<<<< HEAD
 				<a href="{{ url(app()->getLocale().'/pages/setting') }}" class="flex items-center p-2 space-x-2 transition-colors rounded hover:text-blue-500 hover:bg-white">
+=======
+<<<<<<< HEAD
+				<a href="{{ url(app()->getLocale().'/pages/profile') }}" class="flex items-center p-2 space-x-2 transition-colors rounded hover:text-blue-500 hover:bg-white">
+=======
+				<a href="{{ url(app()->getLocale().'/pages/setting') }}" class="flex items-center p-2 space-x-2 transition-colors rounded hover:text-blue-500 hover:bg-white">
+>>>>>>> origin/develop
+>>>>>>> f637711 (.)
 					<x-heroicon-o-user-circle class="size-6" />
 					<span>Profile</span>
 				</a>

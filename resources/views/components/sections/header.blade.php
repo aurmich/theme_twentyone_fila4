@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 <header class="sticky top-0 z-50 bg-white">
+=======
+<<<<<<< HEAD
+<header class="sticky top-0 z-50 bg-white">
+=======
+<header class="">
+>>>>>>> origin/develop
+>>>>>>> f637711 (.)
 	@php
 	$pos=collect($blocks)->groupBy('data.position');
 	

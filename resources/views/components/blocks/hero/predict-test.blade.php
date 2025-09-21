@@ -1,5 +1,13 @@
 @props(['article' => $record])
+<<<<<<< HEAD
 <div class="w-full space-y-5">
+=======
+<<<<<<< HEAD
+<div class="w-full space-y-5">
+=======
+<div class="w-full space-y-5 lg:w-2/3">
+>>>>>>> origin/develop
+>>>>>>> f637711 (.)
     <div class="mb-3 border border-gray-200 pb-4">
         <h3
             class="text-sm p-2 pb-1 font-bold text-gray-900 dark:text-white mb-1 line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">
@@ -32,6 +40,10 @@
                 <span class="ml-1">{{ __('predict::common.credits.label') }}</span>
             </div>
         </div>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f637711 (.)
         {{-- @if (is_array($article->content_blocks))
             
             <x-render.blocks :blocks="$article->content_blocks" :model="$article" />
@@ -39,4 +51,15 @@
     </div>
 
     
+<<<<<<< HEAD
+=======
+=======
+    </div>
+
+    @if (is_array($article->content_blocks))
+        {{-- {{ dd($article->content_blocks); }} --}}
+        <x-render.blocks :blocks="$article->content_blocks" :model="$article" />
+    @endif
+>>>>>>> origin/develop
+>>>>>>> f637711 (.)
 </div>

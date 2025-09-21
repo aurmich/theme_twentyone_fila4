@@ -52,6 +52,10 @@ vendor
 vendor/
 build/
 cache/
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> f637711 (.)
 
 # Standard ignores (auto)
 *.old
@@ -59,3 +63,8 @@ cache/
 *.bak
 *.bakcup
 *.backup.*
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> origin/develop
+>>>>>>> f637711 (.)

@@ -8,3 +8,10 @@
         <div class="text-sm font-semibold">{{ $profile->credits}}</div>
     </div>
 @endif
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+
+>>>>>>> origin/develop
+>>>>>>> f637711 (.)
