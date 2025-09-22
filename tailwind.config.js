@@ -3,6 +3,7 @@ import preset from './vendor/filament/support/tailwind.config.preset'
 export default {
 	presets: [preset],
 <<<<<<< HEAD
+<<<<<<< HEAD
 	darkMode: "class",
 =======
 <<<<<<< HEAD
@@ -10,6 +11,9 @@ export default {
 =======
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+	darkMode: "class",
+>>>>>>> 0ff5db0 (.)
 	content: [
 		'./app/Filament/**/*.php',
         './resources/views/filament/**/*.blade.php',
@@ -36,6 +40,7 @@ export default {
     plugins: [
 		require('flowbite/plugin'),
 <<<<<<< HEAD
+<<<<<<< HEAD
 		require("@tailwindcss/forms"),
         require("@tailwindcss/typography"),
         require("flowbite/plugin"),
@@ -48,5 +53,10 @@ export default {
 		require('@tailwindcss/typography'),
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+		require("@tailwindcss/forms"),
+        require("@tailwindcss/typography"),
+        require("flowbite/plugin"),
+>>>>>>> 0ff5db0 (.)
     ],
 };

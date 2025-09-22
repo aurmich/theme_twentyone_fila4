@@ -34,9 +34,12 @@ new class extends Component {
                         <div class="flex items-center space-x-2">
                             <span class="grid text-blue-600 bg-blue-100 rounded place-items-center size-8">
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> f637711 (.)
+=======
+>>>>>>> 0ff5db0 (.)
                                 {{--  
                                 @if($item->icon == null)
                                 <x-heroicon-o-question-mark-circle class="size-6" />
@@ -49,6 +52,7 @@ new class extends Component {
                                 @endif
                                 --}}
                                 <x-heroicon-o-question-mark-circle class="size-6" />
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
 =======
@@ -64,6 +68,8 @@ new class extends Component {
 
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+>>>>>>> 0ff5db0 (.)
                             </span>
                             <span class="font-semibold">{{ $item->title }}</span>
                         </div>

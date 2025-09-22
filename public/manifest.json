@@ -1,6 +1,7 @@
 {
   "resources/css/app.css": {
 <<<<<<< HEAD
+<<<<<<< HEAD
     "file": "assets/app-LB_ctKbY.css",
 =======
 <<<<<<< HEAD
@@ -9,10 +10,14 @@
     "file": "assets/app-DrqgRqpI.css",
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+    "file": "assets/app-LB_ctKbY.css",
+>>>>>>> 0ff5db0 (.)
     "src": "resources/css/app.css",
     "isEntry": true
   },
   "resources/css/filament/admin/theme.css": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "file": "assets/theme-azEHvN_c.css",
 =======
@@ -22,10 +27,14 @@
     "file": "assets/theme-sokr-iFl.css",
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+    "file": "assets/theme-azEHvN_c.css",
+>>>>>>> 0ff5db0 (.)
     "src": "resources/css/filament/admin/theme.css",
     "isEntry": true
   },
   "resources/js/app.js": {
+<<<<<<< HEAD
 <<<<<<< HEAD
     "file": "assets/app-CWg7uKSu.js",
 =======
@@ -35,6 +44,9 @@
     "file": "assets/app-gP3S95Kp.js",
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+    "file": "assets/app-CWg7uKSu.js",
+>>>>>>> 0ff5db0 (.)
     "name": "app",
     "src": "resources/js/app.js",
     "isEntry": true

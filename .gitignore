@@ -53,9 +53,12 @@ vendor/
 build/
 cache/
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> f637711 (.)
+=======
+>>>>>>> 0ff5db0 (.)
 
 # Standard ignores (auto)
 *.old
@@ -64,7 +67,10 @@ cache/
 *.bakcup
 *.backup.*
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
+=======
+>>>>>>> 0ff5db0 (.)
