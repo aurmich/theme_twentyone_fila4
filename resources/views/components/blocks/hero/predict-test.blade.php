@@ -1,15 +1,7 @@
 @props(['article' => $record])
-<<<<<<< HEAD
-<<<<<<< HEAD
-<div class="w-full space-y-5">
-=======
-<<<<<<< HEAD
-<div class="w-full space-y-5">
-=======
 <div class="w-full space-y-5 lg:w-2/3">
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
-=======
 <div class="w-full space-y-5">
 >>>>>>> 0ff5db0 (.)
     <div class="mb-3 border border-gray-200 pb-4">
@@ -44,12 +36,6 @@
                 <span class="ml-1">{{ __('predict::common.credits.label') }}</span>
             </div>
         </div>
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f637711 (.)
-=======
 >>>>>>> 0ff5db0 (.)
         {{-- @if (is_array($article->content_blocks))
             
@@ -58,10 +44,6 @@
     </div>
 
     
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
     </div>
 
     @if (is_array($article->content_blocks))
@@ -70,6 +52,5 @@
     @endif
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
-=======
 >>>>>>> 0ff5db0 (.)
 </div>

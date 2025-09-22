@@ -11,12 +11,6 @@
         'rating_id' => $rating->id,
     ];
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f637711 (.)
-=======
 >>>>>>> 0ff5db0 (.)
     // Gestione dell'immagine con fallback sicuro
     $image = $rating->getFirstMedia();
@@ -43,10 +37,6 @@
 
 
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
     // Gestione dell'immagine con fallback
     $image = $rating->getFirstMedia();
     if ($image == null) {
@@ -58,32 +48,20 @@
 <button wire:click="mountAction('{{ $action }}', @js($data))" class="block w-full">
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
-=======
 >>>>>>> 0ff5db0 (.)
     <div class="relative overflow-hidden rounded-lg group/rating cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:z-10">
         {{-- Container quadrato per l'immagine --}}
         <div class="aspect-square bg-gray-100 dark:bg-gray-700 relative">
             {{-- Immagine principale --}}
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> f637711 (.)
-=======
 >>>>>>> 0ff5db0 (.)
             @if(isset($image->url))
                 <img src="{{ $image->url }}" class="w-full h-full object-cover transition-transform duration-300 group-hover/rating:scale-110" alt="{{ $rating->title }}">
             @else
                 {{ $image('150x150')->attributes(['class' => 'w-full h-full object-cover transition-transform duration-300 group-hover/rating:scale-110']) }}
             @endif
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
             {{ $image('150x150')->attributes(['class' => 'w-full h-full object-cover transition-transform duration-300 group-hover/rating:scale-110']) }}
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
-=======
 >>>>>>> 0ff5db0 (.)
 
             {{-- Overlay gradiente per migliore leggibilità --}}

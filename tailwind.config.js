@@ -2,16 +2,8 @@ import preset from './vendor/filament/support/tailwind.config.preset'
 /** @type {import('tailwindcss').Config} */
 export default {
 	presets: [preset],
-<<<<<<< HEAD
-<<<<<<< HEAD
-	darkMode: "class",
-=======
-<<<<<<< HEAD
-	darkMode: "class",
-=======
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
-=======
 	darkMode: "class",
 >>>>>>> 0ff5db0 (.)
 	content: [
@@ -39,21 +31,9 @@ export default {
 	},
     plugins: [
 		require('flowbite/plugin'),
-<<<<<<< HEAD
-<<<<<<< HEAD
-		require("@tailwindcss/forms"),
-        require("@tailwindcss/typography"),
-        require("flowbite/plugin"),
-=======
-<<<<<<< HEAD
-		require("@tailwindcss/forms"),
-        require("@tailwindcss/typography"),
-        require("flowbite/plugin"),
-=======
 		require('@tailwindcss/typography'),
 >>>>>>> origin/develop
 >>>>>>> f637711 (.)
-=======
 		require("@tailwindcss/forms"),
         require("@tailwindcss/typography"),
         require("flowbite/plugin"),
