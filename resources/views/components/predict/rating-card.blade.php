@@ -11,16 +11,15 @@
         'rating_id' => $rating->id,
     ];
 
->>>>>>> 0ff5db0 (.)
     // Gestione dell'immagine con fallback sicuro
     $image = $rating->getFirstMedia();
     $imageUrl = null;
-    
+
     if ($image == null) {
         // Genera un URL casuale per l'immagine placeholder
         $imageId = $rating->id ?? rand(1, 1000);
         $imageUrl = "https://picsum.photos/seed/{$imageId}/200/300";
-        
+
         // Usa sempre l'URL diretto per evitare problemi di permessi filesystem
         $image = (object)[
             'url' => $imageUrl,
@@ -29,40 +28,16 @@
     }
 @endphp
 
-<button
-    wire:click="testClick({{ $rating->id }})"
-    type="button"
-    class="block w-full"
-> 
-
-
-
-    // Gestione dell'immagine con fallback
-    $image = $rating->getFirstMedia();
-    if ($image == null) {
-        $url = 'https://picsum.photos/200/300';
-        $image = $rating->addMediaFromUrl($url)->withResponsiveImages()->toMediaCollection();
-    }
-@endphp
-
 <button wire:click="mountAction('{{ $action }}', @js($data))" class="block w-full">
->>>>>>> origin/develop
->>>>>>> f637711 (.)
->>>>>>> 0ff5db0 (.)
     <div class="relative overflow-hidden rounded-lg group/rating cursor-pointer transform transition-all duration-300 hover:scale-105 hover:shadow-lg hover:z-10">
         {{-- Container quadrato per l'immagine --}}
         <div class="aspect-square bg-gray-100 dark:bg-gray-700 relative">
             {{-- Immagine principale --}}
->>>>>>> 0ff5db0 (.)
             @if(isset($image->url))
                 <img src="{{ $image->url }}" class="w-full h-full object-cover transition-transform duration-300 group-hover/rating:scale-110" alt="{{ $rating->title }}">
             @else
                 {{ $image('150x150')->attributes(['class' => 'w-full h-full object-cover transition-transform duration-300 group-hover/rating:scale-110']) }}
             @endif
-            {{ $image('150x150')->attributes(['class' => 'w-full h-full object-cover transition-transform duration-300 group-hover/rating:scale-110']) }}
->>>>>>> origin/develop
->>>>>>> f637711 (.)
->>>>>>> 0ff5db0 (.)
 
             {{-- Overlay gradiente per migliore leggibilità --}}
             <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent transition-opacity duration-300 group-hover/rating:opacity-90"></div>

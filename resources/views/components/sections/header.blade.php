@@ -1,8 +1,4 @@
-<header class="">
->>>>>>> origin/develop
->>>>>>> f637711 (.)
 <header class="sticky top-0 z-50 bg-white">
->>>>>>> 0ff5db0 (.)
 	@php
 	$pos=collect($blocks)->groupBy('data.position');
 	
