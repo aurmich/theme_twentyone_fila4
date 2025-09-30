@@ -1,5 +1,5 @@
 @props(['article' => $record])
-<div class="w-full space-y-5">
+<div class="w-full space-y-5 lg:w-2/3">
     <div class="mb-3 border border-gray-200 pb-4">
         <h3
             class="text-sm p-2 pb-1 font-bold text-gray-900 dark:text-white mb-1 line-clamp-2 group-hover:text-blue-600 dark:group-hover:text-blue-400 transition-colors">

@@ -1,4 +1,4 @@
-<?php
+<?php // pages/dashboard.blade.php
 use function Laravel\Folio\{name};
 
 name('home');
