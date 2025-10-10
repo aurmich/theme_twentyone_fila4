@@ -1,7 +1,9 @@
 # TwentyOne Theme Documentation
 
 ## Introduzione
-TwentyOne è un tema moderno e performante per Laravel, basato su Tailwind CSS e Vite. Questo tema è stato progettato per offrire una soluzione robusta e facilmente personalizzabile per le applicazioni Laravel.
+TwentyOne è un tema moderno e performante per Laravel, basato su Tailwind CSS e Vite.
+Questo tema è progettato per offrire una soluzione robusta e facilmente personalizzabile
+per le applicazioni Laravel e per integrarsi con l'ecosistema moduli del progetto.
 
 ## Caratteristiche Principali
 - 🎨 Design moderno con Tailwind CSS
@@ -22,10 +24,11 @@ TwentyOne/
 ```
 
 ## Requisiti
-- PHP >= 8.1
-- Laravel >= 10.0
-- Node.js >= 16.0
-- NPM >= 7.0
+- PHP >= 8.3
+- Laravel 11.x (12-ready)
+- Node.js >= 18.0
+- NPM >= 9.0
+- Compatibile con Filament 4.x (dove applicabile nelle integrazioni admin)
 
 ## Installazione
 1. Clona il repository nella cartella `laravel/Themes/TwentyOne`
@@ -62,6 +65,11 @@ Per problemi comuni, consulta la documentazione nella cartella `docs`:
 - [Vite Manifest Error](VITE_MANIFEST_ERROR.md)
 - [Vite Error](vite-error.md)
 - [Publishing](publishing.md)
+
+## Documentazione correlata
+- `laravel/Themes/TwentyOne/docs/` - Documentazione del tema
+- `project_docs/` - Documentazione di progetto (architettura, sviluppo)
+- `project_docs/roadmaps/` - Roadmap master e stato avanzamento
 
 ## Contribuire
 Le contribuzioni sono benvenute! Per contribuire:
